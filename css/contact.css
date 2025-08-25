@@ -30,6 +30,24 @@
     font-weight: bold;
 }
 
+/* Hero Section Styles */
+
+.hero {
+    background: url("../images/rainbow-vortex.png") center / cover no-repeat;
+    height: 50vh;
+}
+
+.hero .row {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.hero h1 {
+    color: #fff;
+    font: bold 48px default serif;
+}
+
 /* Footer Section Styles */
 
 .footer {
