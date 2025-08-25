@@ -110,7 +110,7 @@
 
 .services-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 20px;
 }
 
@@ -132,4 +132,18 @@
 .service-item p {
     padding: 30px 10px;
     font-size: 14px;
+}
+
+/* Services Section Responsive Styles */
+
+@media (max-width: 992px) {
+    .services-list {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+@media (max-width: 576px) {
+    .services-list {
+          grid-template-columns: 1fr;
+    }
 }
