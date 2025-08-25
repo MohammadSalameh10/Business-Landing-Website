@@ -33,7 +33,7 @@
 /* Hero Section Styles */
 
 .hero {
-  background: url("../images/rainbow-vortex.png") center / cover no-repeat;
+    background: url("../images/rainbow-vortex.png") center / cover no-repeat;
 }
 
 .hero,
@@ -63,7 +63,7 @@
     color: #fff;
 }
 
-.hero-content a{
+.hero-content a {
     color: #000;
     font: bold 16px default serif;
     background-color: #f4a742;
@@ -72,4 +72,25 @@
     padding: 20px 75px;
     border-radius: 3px;
     border: 1px solid #7b6c49;
+}
+
+/* Hero Section Responsive Styles */
+
+@media (max-width: 576px) {
+    .hero .row {
+        justify-content: center;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 20px;
+    }
+
+    .hero-content a {
+        font-size: 14px;
+        padding: 15px 50px;
+    }
 }
