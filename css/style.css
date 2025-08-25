@@ -1,9 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+:root {
+    --primary-color: #247;
+    --secondary-color: #fea;
+    --font-family: 'Poppins', sans-serif;
+}
+
+a {
     text-decoration: none;
     color: #fff;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }

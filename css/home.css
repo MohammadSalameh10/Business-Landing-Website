@@ -1,6 +1,8 @@
+/* Navbar Styles */
+
 .header {
     width: 100%;
-    background-color: #247;
+    background-color: var(--primary-color);
     padding: 15px 0;
 }
 
@@ -8,11 +10,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
 }
 
 .nav-logo {
-   font-size: 18px;
+    font-size: 18px;
 }
 
 .nav-links {
@@ -21,10 +22,54 @@
 }
 
 .nav-links a {
-    color: #fea;
-    font-family: Arial, Helvetica, sans-serif;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
 }
 
 .nav-links a:first-child {
     font-weight: bold;
+}
+
+/* Hero Section Styles */
+
+.hero {
+  background: url("../images/rainbow-vortex.png") center / cover no-repeat;
+}
+
+.hero,
+.hero .row {
+    height: 100vh;
+}
+
+.hero .row {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font: bold 48px default serif;
+    color: #fff;
+}
+
+.hero-content p {
+    font: bold 25px default serif;
+    color: #fff;
+}
+
+.hero-content a{
+    color: #000;
+    font: bold 16px default serif;
+    background-color: #f4a742;
+    align-self: center;
+    width: fit-content;
+    padding: 20px 75px;
+    border-radius: 3px;
+    border: 1px solid #7b6c49;
 }
