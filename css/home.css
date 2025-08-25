@@ -106,6 +106,7 @@
 .services h2 {
     font-weight: bold;
     padding-bottom: 10px;
+    font-family: var(--font-family);
 }
 
 .services-list {
@@ -144,6 +145,50 @@
 
 @media (max-width: 576px) {
     .services-list {
-          grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
+}
+
+/* About Section Styles */
+
+.about {
+    padding: 20px 0;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: var(--font-family);
+}
+
+.about h2 {
+    font-weight: bold;
+}
+
+.about-info {
+    display: flex;
+    gap: 5px;
+}
+
+.about-left,
+.about-right {
+    width: 50%;
+}
+
+.about-left img {
+    width: 100%;
+}
+
+.about-right,
+.about-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-right {
+    gap: 25px;
+}
+
+.about-item {
+    gap: 20px;
 }
