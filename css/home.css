@@ -94,3 +94,42 @@
         padding: 15px 50px;
     }
 }
+
+/* Services Section Styles */
+
+.services {
+    padding: 20px 0;
+    width: 70%;
+    margin: auto;
+}
+
+.services h2 {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 20px;
+}
+
+.service-item {
+    border: 1px solid #1f4b7f;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.service-item h3 {
+    background: #1f4b7f;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    padding: 15px 0;
+    font: bold 18px default serif;
+    text-align: center;
+}
+
+.service-item p {
+    padding: 30px 10px;
+    font-size: 14px;
+}
