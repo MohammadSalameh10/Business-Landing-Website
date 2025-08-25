@@ -87,9 +87,9 @@
 
 .form-group input,
 .form-group textarea {
-   border: 3px solid #f08080;
-   border-radius: 5px;
-   padding: 5px 3px;
+    border: 3px solid #f08080;
+    border-radius: 5px;
+    padding: 5px 3px;
 }
 
 .form-buttons {
@@ -117,9 +117,18 @@
     border-color: #8a4646;
 }
 
+/* Contact Section Responsive Styles */
+
+@media screen and (max-width: 576px) {
+    .contact .row {
+        flex-direction: column;
+    }
+}
+
 /* Footer Section Styles */
 
 .footer {
+    margin-top: 20px;
     background-color: #000;
     padding: 15px 0;
 }
