@@ -33,7 +33,7 @@
 /* Hero Section Styles */
 
 .hero {
-    background: url("../images/rainbow-vortex.png") center / cover no-repeat;
+    background: url(../images/rainbow-vortex.webp) center / cover no-repeat;
     height: 50vh;
 }
 
@@ -45,7 +45,7 @@
 
 .hero h1 {
     color: #fff;
-    font: bold 48px default serif;
+    font: bold 48px/1.2 var(--font-family);
 }
 
 /* Contact Section Styles */
@@ -120,9 +120,11 @@
 /* Contact Section Responsive Styles */
 
 @media screen and (max-width: 576px) {
+
     .contact .row {
         flex-direction: column;
     }
+    
 }
 
 /* Footer Section Styles */

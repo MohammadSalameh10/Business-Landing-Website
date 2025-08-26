@@ -1,25 +1,34 @@
+/* Reset Styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Root Variables */
+
 :root {
     --primary-color: #247;
     --secondary-color: #fea;
-    --font-family: 'Poppins', sans-serif;
+    --font-family: "Poppins", sans-serif;
 }
+
+/* Link Styles */
 
 a {
     text-decoration: none;
     color: #fff;
 }
 
+/* Layout Styles */
+
 .container {
     margin: auto;
     width: 90%;
 }
-.row{
+
+.row {
     display: flex;
     flex-wrap: wrap;
 }
